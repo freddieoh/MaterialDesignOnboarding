@@ -1,0 +1,6 @@
+framework module Pods_MaterialDesignOnboarding {
+  umbrella header "Pods-MaterialDesignOnboarding-umbrella.h"
+
+  export *
+  module * { export * }
+}
