@@ -9,13 +9,27 @@
 import UIKit
 import paper_onboarding
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, PaperOnboardingDataSource {
 
+    @IBOutlet weak var onboardingView: OnboardingView!
+   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        onboardingView.dataSource = self
+        
+    
+    }
+    
+    func onboardingItemsCount() -> Int {
+        
     }
 
+    func onboardingItemAtIndex(_ index: Int) -> OnboardingItemInfo {
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
