@@ -22,15 +22,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rbr-1W-IVd" customClass="OnboardingView" customModule="paper_onboarding">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rbr-1W-IVd" customClass="OnboardingView" customModule="MaterialDesignOnboarding">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="667" id="b2t-DS-pwY"/>
+                                    <constraint firstAttribute="width" constant="375" id="fyH-OP-m0E"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Rbr-1W-IVd" secondAttribute="bottom" id="3Pq-Jn-XBM"/>
+                            <constraint firstItem="Rbr-1W-IVd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7BI-t0-ZDz"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Rbr-1W-IVd" secondAttribute="bottom" id="Fmn-b0-gHb"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Rbr-1W-IVd" secondAttribute="trailing" constant="-16" id="HlF-OO-Q3j"/>
+                            <constraint firstItem="Rbr-1W-IVd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Zu4-3N-m7E"/>
+                            <constraint firstAttribute="trailing" secondItem="Rbr-1W-IVd" secondAttribute="trailing" id="f5Z-7M-UmL"/>
                             <constraint firstItem="Rbr-1W-IVd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="hfk-Rt-GfN"/>
                             <constraint firstItem="Rbr-1W-IVd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="pRT-eI-9LT"/>
                         </constraints>
