@@ -35,10 +35,10 @@ class ViewController: UIViewController, PaperOnboardingDataSource {
         let descriptionFont = UIFont(name: "AvenirNext-Regular", size: 18)!
         
         return [("rocket", "Space City", "Why do we still use outdated onboard design? With Google's new Material Design", "", backgroundColorOne, UIColor.white, UIColor.white, titleFont, descriptionFont),
-                
-                ("brush", "Powerful Rocket", "Your app will look very professional and up to date", "", backgroundColorTwo, UIColor.white, UIColor.white, titleFont, descriptionFont),
-               
-                ("notification", "Innovative design", "..because you shouldn't skate on design", "", backgroundColorThree, UIColor.white, UIColor.white, titleFont, descriptionFont)
+    // Second Screen
+                ("brush", "Powerful Rocket", "Your app will look modern and professional", "", backgroundColorTwo, UIColor.white, UIColor.white, titleFont, descriptionFont),
+    // Third Screen
+                ("notification", "Innovative design", "Visually appealing", "", backgroundColorThree, UIColor.white, UIColor.white, titleFont, descriptionFont)
                 ][index]
 
     }
